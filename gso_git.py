@@ -18,3 +18,7 @@ for i in range(3):
     lina = input("Skráðu nýja línu í skránna ")
     minSkra.write(lina + "\n")
 minSkra.close()
+
+#Prenta út innihald skráarinnar
+minSkra = open(skraNafn,"r")
+print(minSkra.read())
